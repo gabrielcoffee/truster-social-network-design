@@ -1,0 +1,44 @@
+
+.welcome-message {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.post {
+    background-color: white;
+}   
+
+.post-header {
+    display:flex;
+}
+
+.post-header-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 1rem 0 1rem 0;
+    justify-content: space-evenly;
+}
+
+.post-text {
+    margin: 1rem;
+}
+
+.comment {
+    display: flex;
+}
+
+.comment-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size:small;
+}
+
+.comment-profile-picture {
+    border-radius: 2rem;
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+    margin: 0.5rem;
+}
