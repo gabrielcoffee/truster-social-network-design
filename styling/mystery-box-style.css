@@ -1,0 +1,23 @@
+.go-back-button {
+    align-items: center;
+    display: flex;
+    gap: 0.2rem;
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    justify-content: center; /* Centers the div vertically */
+    align-items: center;     /* Centers the div horizontally */
+    height: 100vh;
+}
+
+.white-box {
+    margin: auto;
+    align-items: center;
+    width: 85%;
+    height: 50%;
+    background-color: white;
+}
