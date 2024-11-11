@@ -1,6 +1,8 @@
 # truster
 No ads, no brands, just real people. Truster is a social network dedicated to genuine, meaningful connections.
 
+This project is built with HTML for structured content and CSS for styling
+
 Here are some previews of the pages:
 
 <img width="300" alt="preview1" src="https://github.com/user-attachments/assets/cb870edf-09e8-4589-bb30-9a199959a03b">
