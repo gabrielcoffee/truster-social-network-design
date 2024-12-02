@@ -1,9 +1,7 @@
 const profileInfo = {
     name: "John Lennon",
-    age: 34,
-    location: "Liverpool, UK",
-    occupation: "Aspiring musician",
-    bio: "Aiming to change the world through music.",
+    bio: `34 years old, from Liverpool, UK. Aspiring musician
+        aiming to change the world through music.`,
     banner: "/images/banner.jpg",
     pfp: "images/profilepic.jpeg"
 };
@@ -28,7 +26,7 @@ profileElement.innerHTML += `
     </div>
     <div class="profile-text-info">
         <p class="profile-name">${profileInfo.name}</p>
-        <p class="bio">${profileInfo.age} years old, from ${profileInfo.location}. ${profileInfo.occupation} aiming to ${profileInfo.bio}</p>
+        <p class="bio">${profileInfo.bio}</p>
     </div>
 `;
 
