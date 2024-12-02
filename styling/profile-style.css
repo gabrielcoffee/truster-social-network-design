@@ -2,6 +2,12 @@
     background-color: white;
 }
 
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
 .nametag {
     font-size: 1.3rem;
 }
@@ -63,10 +69,6 @@
     font-size: large;
 }
 
-.posts {
-
-}
-
 .tabs {
     display: flex;
     justify-content: space-around;
@@ -82,10 +84,6 @@
 
 .tab-icon {
     fill: gray;
-}
-
-.selected {
-
 }
 
 .posts-content {
