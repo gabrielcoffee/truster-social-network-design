@@ -6,7 +6,7 @@ const profileInfo = {
     pfp: "images/profilepic.jpeg"
 };
 
-posts_images = [
+const posts_images = [
     "/images/pfpost1.jpg",
     "/images/pfpost2.jpg",
     "/images/pfpost3.jpg",
