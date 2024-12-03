@@ -19,10 +19,41 @@
     </header>
 
     <!-- MAIN CONTENT -->
-    <main>
-        
-        <div class="white-box"></div>
-        
-    </main>
+
+    <div class="content-container">
+
+        <div class="white-box">
+            <span class="title">Daily Mystery Box</span>
+
+            <svg width="229" height="202" viewBox="0 0 229 202" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M78.9182 0L0.762299 38.7105L28.6805 66.3646L106.835 27.6557L78.9182 0ZM150.082 0L122.165 27.6557L200.32 66.3646L228.239 38.711L150.083 0.000501554L150.082 0ZM114.5 33.9162L109.963 36.1644V107.511L114.5 109.758L119.038 107.511V36.1644L114.5 33.9162ZM29.035 77.4869L0 113.44L70.3539 152.159L106.834 116.021L29.035 77.4874V77.4869ZM199.966 77.4869L122.166 116.021L158.647 152.159L229 113.44L199.965 77.4874L199.966 77.4869ZM109.963 125.642L71.9305 163.316L32.3221 141.519V163.545L109.963 202V125.642ZM119.038 125.642V202L196.678 163.545V141.518L157.07 163.317L119.038 125.642Z" fill="black"/>
+            </svg>
+            
+            <span class="text">Do you want to open your Daily Mystery Box right now?</span>
+
+            <button class="open-box-button">Open it!</button>
+        </div>
+    </div>  
+    <script>
+        const goBackButton = document.querySelector('.go-back-button');
+        goBackButton.addEventListener('click', () => {
+            window.location.href = 'homepage.html';
+        });
+
+        const mysterybox_prizes = [
+            'You won a new theme',
+            'You are being challenged to post a new picture within 1 minute',
+            'You won a new color palette',
+            'You won a credit to add an online friend',
+            'You are beautiful'
+        ]
+
+        const openBoxButton = document.querySelector('.open-box-button');
+        openBoxButton.addEventListener('click', () => {
+            const randomNumberInt = Math.floor(Math.random() * mysterybox_prizes.length);
+            alert(mysterybox_prizes[randomNumberInt]);
+        })
+
+    </script>
 </body>
 </html>

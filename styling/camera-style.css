@@ -1,0 +1,26 @@
+.camera-buttons {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    position:sticky;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+}
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+body {
+    padding-bottom: 0;
+}
+
+main {
+    gap: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

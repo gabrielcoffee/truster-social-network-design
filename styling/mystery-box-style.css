@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+/* container to make the white box centralized vertically */
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.white-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 0 2rem 100px 2rem;
+}
+
+.text {
+    margin: 0 1rem 0 1rem;
+}
+
+.open-box-button {
+    background-color: #FACC14;
+    border: none;
+    border-radius: 5px;
+    font-size:large;
+    padding: 15px 25px;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
